@@ -1,4 +1,4 @@
-Node.js User Authentication API🔐:
+**Node.js User Authentication API**🔐:
             This project is a Node.js API that provides endpoints for **user authentication** (signup and login) and **user profile management**. It is built using **Express.js** 🛠️ and **MongoDB** 🗄️ for data storage. Additionally, the API sends **confirmation emails** 📧 to users upon successful registration.
 Features✨:
 **User Signup** 📝  
