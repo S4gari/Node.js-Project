@@ -11,18 +11,18 @@ app.use(express.urlencoded({ extended: false }));
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
-const JWT_SECRET = "your_secret_key"; // Replace with a strong secret key
+const JWT_SECRET = "your_secret_key"; 
 
 // Configure Nodemailer Transport
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'your_email@gmail.com', // Replace with your email
-        pass: 'your_email_password',  // Replace with your email password or app password
+        user: 'your_email@gmail.com',
+        pass: 'your_email_password',
     },
 });
 
-// Routes
+
 
 // Display login page
 app.get("/", (req, res) => {
