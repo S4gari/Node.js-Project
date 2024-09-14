@@ -8,16 +8,16 @@ Allows users to register with a username, email, and password.
 Validates input, hashes the password, and securely stores user data in MongoDB.
 Sends a confirmation email upon successful signup.
 
-User Login
+User Login:
 Endpoint: /api/login
 Validates user credentials (email and password).
 Generates a JWT token for authentication, which is sent back to the client.
 
-User Profile
+User Profile:
 Endpoint: /api/profile
 Retrieves and displays the user's profile information using the JWT token provided.
 
-Confirmation Email
+Confirmation Email:
 A confirmation email is sent after successful user signup using Nodemailer.
 The email contains a confirmation link to verify the user's registration.
 
